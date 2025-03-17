@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: "hmortazavi"
+    database: "dwh"
+    schema: "hmortazavi"
+    tables:
+      - name: jaffle_shop_customers
+      - name: jaffle_shop_orders
+      - name: jaffle_shop_stripe_payments
