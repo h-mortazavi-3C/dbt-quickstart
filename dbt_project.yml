@@ -2,20 +2,14 @@
 # Name your project! Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: 'test'
-version: '1.0'
-config-version: 2
+name: 'jaffle_shop'
 
-models: 
-  test:
+models:
+  jaffle_shop:
     +materialized: table
-    staging:
-      +schema: staging
-      +materialized: table
-    marts:
-      +schema: marts
-      +materialized: table
-
+    example:
+      +materialized: view
+  
 
 
 
